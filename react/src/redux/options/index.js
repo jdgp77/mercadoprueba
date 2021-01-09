@@ -1,0 +1,1 @@
+export const QUERY_VALUE = 'QUERY_VALUE';

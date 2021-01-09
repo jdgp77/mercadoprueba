@@ -1,0 +1,13 @@
+@import '../../../sass/globalVariables.scss';
+
+.ml-el-breadcrumbs a {
+  display: inline-block;
+  padding: $redSpace 10px $redSpace;
+  text-decoration: none;
+  color: $mlGray;
+  font-weight: 500;
+  font-size: 14px;
+  &.ml-first {
+    padding-left: 0;
+  }
+}

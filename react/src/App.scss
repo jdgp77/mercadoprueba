@@ -1,0 +1,11 @@
+@import './sass/globalVariables.scss';
+
+.ml-main {
+  background-color: $mainBackground;
+  min-height: 800px;
+  padding-bottom: $mlMainPaddingBottom;
+  > div {
+    max-width: 1200px;
+    margin: 0 auto 50px;
+  }
+}

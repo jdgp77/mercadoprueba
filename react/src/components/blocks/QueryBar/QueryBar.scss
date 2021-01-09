@@ -1,0 +1,24 @@
+@import '../../../sass/globalVariables.scss';
+
+.ml-bk-query-bar {
+  background-color: $headerBackground;
+  > div {
+    max-width: 1200px;
+    height: 56px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px 20px;
+  }
+    .ml-logo {
+      width: 58px;
+    }
+    .ml-el-input-query {
+      width: 100%;
+    }
+      input {
+        border: 0;
+        box-sizing: border-box;
+        padding: 10px;
+        height: 40px;
+      }
+}

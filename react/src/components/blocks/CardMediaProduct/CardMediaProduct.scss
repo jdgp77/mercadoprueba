@@ -1,0 +1,37 @@
+@import '../../../sass/globalVariables.scss';
+
+.ml-bk-card-media-product {
+  display: grid;
+  background-color: white;
+  grid-template-columns: (180px+($redSpace*2)) auto 200px;
+  padding: $redSpace 0;
+  .ml-col-img {
+    padding: 0 $redSpace;
+    img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+  }
+  .ml-col-txt {
+    padding: $redSpace 0;
+    a {
+      text-decoration: none;
+      color: $mlDefaultFontColor;
+    }
+  }
+    .ml-price {
+      padding-bottom: $greenSpace;
+      font-size: 30px;
+    }
+    .ml-title {
+      font-size: 18px;
+      font-weight: normal;
+    }
+  .ml-col-location {
+    font-size: 14px;
+    color: $mlGray;
+    padding-top: 38px;
+  }
+}

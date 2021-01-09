@@ -1,0 +1,56 @@
+@import '../../../sass/globalVariables.scss';
+
+.ml-bk-product {
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto 300px;
+  > div {
+    padding: 20px;
+  }
+  .ml-col-principal {
+    img {
+      width: 100%;
+    }
+  }
+    h3 {
+      font-weight: 400;
+    }
+    .ml-sub-description {
+      color: $mlGray;
+      font-size: 12px;
+    }
+  .ml-col-details {
+    
+  }
+    .ml-sub-title {
+      font-size: 14px;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .ml-price {
+      display: table;
+    }
+      .ml-price-without-decimals {
+        display: table-cell;
+        font-size: 40px;
+      }
+      .ml-price-decimals {
+        display: table-cell;
+        vertical-align: top;
+        line-height: 38px;
+      }
+      .ml-price-button {
+        background-color: $mlBlue;
+        display: block;
+        color: white;
+        padding: 8px 20px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 4px;
+        margin-top: 40px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+}

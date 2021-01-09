@@ -1,0 +1,32 @@
+@import '../../../sass/globalVariables.scss';
+
+.ml-el-input-query {
+  position: relative;
+  $paddingTopBottom: 9.5px;
+  $borderRadius: 5px;
+  input {
+    background-color: white;
+    width: 100%;
+    border-radius: $borderRadius;
+    padding-top: $paddingTopBottom;
+    padding-bottom: $paddingTopBottom;
+    &:focus {
+      outline-width: 0;
+    }
+  }
+  .ml-icon-query {
+    background-color: $mlGrayLigth;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    border-radius: 0 $borderRadius $borderRadius 0;
+    img {
+      width: 22px;
+      $marginTopLeft: 9px;
+      margin-top: $marginTopLeft;
+      margin-left: $marginTopLeft;
+    }
+  }
+}

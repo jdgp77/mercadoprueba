@@ -1,0 +1,36 @@
+// Principal colors
+// ================
+$mlYellow: #FFE600;
+$mlDark: #333;
+$mlGrayDark: #666;
+$mlGray: #999;
+$mlGrayLigth: #EEE;
+$mlBlue: #3483FA;
+
+$colorPrimary: $mlYellow;
+$colorSecundary: $mlBlue;
+$colorGrayN1: $mlDark; 
+$colorGrayN2: $mlGrayDark; 
+$colorGrayN3: $mlGray; 
+$colorGrayN4: $mlGrayLigth;
+
+// Principal font
+$mlDefaultFontColor: $mlDark;
+
+// Principal size
+// ==============
+$redSpace: 16px;
+$greenSpace: 32px;
+
+// Header
+// ======
+$headerBackground: $mlYellow;
+
+// Breadcrumbs
+// ===========
+$breadcrumbsPaddingTopBottom: $redSpace;
+
+// Main
+// ======
+$mainBackground: $mlGrayLigth;
+$mlMainPaddingBottom: 20px;
